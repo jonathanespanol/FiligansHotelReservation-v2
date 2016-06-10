@@ -1,0 +1,291 @@
+/* fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* sticky footer */
+* {
+	margin: 0;
+}
+
+html, body 
+{	
+	height: 100%;
+}
+
+#page-wrapper {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -30px; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+#page-wrapper:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, #page-wrapper:after {
+	height: 30px; 
+}
+
+.site-footer {
+	padding:5px;
+	background: black;
+	color:white;
+	text-align: center
+}
+
+.txt-shadow
+{
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.txt-shadow-white
+{
+	text-shadow: 1px 1px 2px rgba(0,0,0, 1);
+}
+
+.main-content .rooms a:hover
+{
+	text-decoration: none;
+	color:#E5AD66;
+	
+}
+
+.main-content .rooms a
+{
+	color:#ad977b;
+}
+
+.rooms .item
+{
+	margin-bottom:20px;
+}
+
+.rooms .item h3
+{
+	font-style:italic;
+	color:#7E7E7E;
+	font-family: Open Sans, Arial;
+	text-shadow: 1px 1px 2px rgba(255,255,255, 1);
+
+}
+
+.rooms .item h3 span
+{
+	font-style:normal !important;
+	color:rgb(46, 165, 61);
+	font-weight:bold;
+	font-family: Open Sans, Arial;
+}
+
+.rooms .item
+{
+	margin-bottom:30px;
+}
+
+.rooms .item p
+{
+	color : rgb(83, 105, 93);
+}
+
+.main-content .rooms h2
+{
+	
+	border-bottom:2px solid #C3C3C3;
+
+}
+
+.reservation-sidebar .rooms
+{
+	background-color:#E7E39E;
+	min-height:20px;
+	width:100%;
+	padding:5px;
+	color:white;
+	border-bottom:2px solid white;
+	margin-bottom:0 !important;
+	text-shadow: 1px 1px 2px rgba(0,0,0, 1);
+}
+
+.reservation-sidebar .rooms h5 span
+{
+	font-size:18px;
+	font-weight:bold;
+	color:rgb(109, 255, 109);
+	margin-left:10px;
+}
+
+.reservation-sidebar .rooms h5:nth-of-type(2)
+{
+	color:rgb(181, 255, 241);
+}
+
+.main-content
+{
+	margin:20px 0 20px 0;
+}
+
+.reservation-sidebar .media
+{
+	
+}
+
+.reservation-sidebar
+{
+	border-radius:3px;
+	min-height:100px;
+	padding:0;
+	background-color:#F9F4E5;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+.reservation-sidebar .form-control
+{
+	border-radius:3px;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+.text-control
+{
+	font-family:Open Sans, Arial;
+}
+
+.reservation-sidebar label
+{
+	font-weight:500;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+	font-size:15px;
+	font-family:Open Sans, Arial;
+}
+header
+{
+	background-image:url('hotelrooms/freedom-beach.jpg');
+	background-size:cover;
+	background-image: url("texture3.jpg");
+}
+
+
+.header
+{
+	background-image:url('hotelrooms/freedom-beach.jpg') !important;
+	background-size:cover !important;
+}
+
+
+
+.home-page-2
+{
+	color:white;
+	padding:50px;
+
+	background:black;
+}
+.home-page-3
+{
+	padding:50px;
+	
+}
+
+
+.home-page-4
+{
+	background-image:url('hotelrooms/freedom-beach.jpg');
+	background-size:cover;
+	padding:50px;
+	color:white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+
+.home-page-2 h2
+{
+	font-family:Open Sans, Arial;
+	margin-bottom:0
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+.home-reservation
+{
+	min-height:60px;
+	padding:10px;
+	border-top:5px solid white;
+	border-bottom:2px solid bottom;
+	background-image:url('http://localhost:8787/images/background/texture4.jpg');
+}
+
+.home-reservation h4{
+	color:white;
+	text-align:right;
+}
+
+.home-page-2 .rooms{
+	padding-top:50px;
+}
+
+.home-page-2 .rooms p
+{
+	font-family: Open Sans, Arial;
+	font-size:16px
+}
+.home-reservation input, .home-reservation select
+{
+	border-radius:2px;
+	font-weight:bold;
+	text-align:center;
+}
+.top-shadow
+{
+	-webkit-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.container.slider{
+	margin-top:30px;
+	min-height:100px;
+	padding:5px 5px 0 5px;
+	background:white;
+}
+
+.main-container .content
+{
+	border-radius:3px;
+	background-color:white;
+	min-height:100px;
+}
+
+/* slider style */
+
+/* jssor slider bullet navigator skin 05 css */
+                /*
+                .jssorb05 div           (normal)
+                .jssorb05 div:hover     (normal mouseover)
+                .jssorb05 .av           (active)
+                .jssorb05 .av:hover     (active mouseover)
+                .jssorb05 .dn           (mousedown)
+                */
+                .jssorb05 {
+                	position: absolute;
+                }
+                .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                	position: absolute;
+                	/* size of bullet elment */
+                	width: 16px;
+                	height: 16px;
+                	background: url(img/b05.png) no-repeat;
+                	overflow: hidden;
+                	cursor: pointer;
+                }
+                .jssorb05 div { background-position: -7px -7px; }
+                .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+                .jssorb05 .av { background-position: -67px -7px; }
+                .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
